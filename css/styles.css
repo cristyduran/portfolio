@@ -225,6 +225,10 @@ hr {
     width: 100%;
 }
 
+.code-link {
+    color: #E42D9F;
+}
+
 /* Style rules for footer content */
 footer {
     text-align: center;
