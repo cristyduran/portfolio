@@ -17,6 +17,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Pacifico&family=Sono&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/node_modules/@fortawesome/fontawesome-free/css/all.min.css" />
     <link rel="stylesheet" href="./css/styles.css">
     <title>Cristina Duran: About</title>
@@ -28,40 +30,28 @@
 
     <div id="wrapper">
 
-        <!-- Mobile Nav -->
-        <nav class="mobile-nav">
-            <div id="nav-links">
-                <a href="index.html">Home</a>
-                <a href="portfolio.html">Portfolio</a>
+        <nav class="navbar navbar-expand-lg navbar-light sticky-top">
+            <a href="#" class="navbar-brand">Cristina Duran</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item active">
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#projects">Projects</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contact">Contact</a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="./pdf-file/Cristina Duran - Resume for Web Developer.pdf" target="_blank"><button type="button" class="btn">Resume</button></a>
+                    </li>
+                </ul>
             </div>
-            <a class="nav-icon" onclick="menu()">
-                <div id="icon">&#9776;</div>
-            </a>
-        </nav>
-
-        <header>
-            <div class="tab-desk">
-                <h1>Cristina Duran</h1>
-                <h2>Front-End Developer</h2>
-                <a href="mailto:duran_cris43@yahoo.com" class="button">Contact Me</a>
-            </div>
-
-            <div class="mobile">
-                <h1>Cristina Duran</h1>
-                <h2>Front-End Developer</h2>
-                <a href="mailto:duran_cris43@yahoo.com" class="button">Contact Me</a>
-            </div>
-            
-        </header>
-
-        <nav class="tab-desk">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="portfolio.html">Portfolio</a></li>
-                <li class="nav-social"><a href="https://github.com/cristyduran" target="_blank"><img src="./images/github-mark-white.png" alt=""></a></li>
-                <li class="nav-social"><a href="https://www.linkedin.com/in/cristina-duran-a89a16245/" target="_blank"><img src="./images/In-White-48.png" alt=""></a></li>
-
-            </ul>
         </nav>
 
         <!--Main area to add the main content to the webpage-->
@@ -69,99 +59,180 @@
 
         <div class="container">
             <div class="row mt-3">
-                <div class="col col-12 col-sm-6 text-center">
-                    <img src="./images/headshot.png" class="img-fluid" alt="headhshot of cristina duran.">
+                <div class="col col-12 col-md-6 d-flex justify-content-center align-items-center ">
+                    <img src="./images/headshot.png" class="img-fluid headshot mb-4" alt="headhshot of cristina duran.">
                 </div>
-                <div class="col col-12 col-sm-6">
-                    <h3>About Me</h3>
+                <div class="col col-12 col-md-6">
+                    <p class="special-text">Hi, you can call me</p>
+                    <h3 class="name">Cristy.</h3>
+                    <p class="special-text">I am a software engineer specializing in Frontend technologies.</p>
                     <p>
-                            I am an entry-level tech professional. My professional journey has led me through ten years of experience in teaching and
-                            musical performance.  My aim is to utilize my experience and skills in a new career in tech.
-                            I enjoy working on teams and being one part of a whole. My hobbies include making music, fiber arts, trail running
-                            and mountain biking.
+                         For the past ten years I've been honing my craft as a musician but lately I've realized that I also have an instinct and interest for technology. I am currently combining my past experience with my new skills to kickstart a career in Frontend Development.
                     </p>
-                    <a href="portfolio.html"><button type="button" class="btn btn-primary">View My Porfolio</button></a>
+                    <a href="#projects"><button type="button" class="btn btn-primary">View My Portfolio</button></a>
+                    <div class="row mx-auto  mt-3">
+                        <a href="https://www.linkedin.com/in/cristyduran/" target="_blank"><i class="fa-brands fa-linkedin fa-2x mr-3"></i></a>
+                        <a href="https://github.com/cristyduran" target="_blank"><i class="fa-brands fa-github fa-2x"></i></a>
+                    </div>
                 </div>
             </div>
         </div>
 
         <hr />
-
+        <!-- Tech Skills-->
             <div class="row mt-3">
                 <div class="col">
                     <h3 class="text-center">Tech Skills</h3>
                 </div>
             </div>
             <div class="row mt-3">
-                    <div class="col col-4 col-md-2">
-                        <div class="row mx-auto">
+                <!-- HTML -->
+                    <div class="col col-4 col-md-2 d-flex flex-column justify-content-center align-items-center">
                             <i class="fa-brands fa fa-html5 fa-3x"></i>
-                        </div>
-                        <div class="row">
                             <p>HTML5</p>
-                        </div>
                     </div>
-                    <div class="col col-4 col-md-2">
-                        <div class="row mx-auto">
+                    <!-- CSS -->
+                    <div class="col col-4 col-md-2 d-flex flex-column justify-content-center align-items-center">
                             <i class="fa-brands fa-css3-alt fa-3x"></i>
-                        </div>
-                        <div class="row">
                             <p>CSS3</p>
-                        </div>
                     </div>
-                    <div class="col col-4 col-md-2">
-                        <div class="row mx-auto">
-                            <i class="fa-brands fa fa-js fa-3x"></i>
-                        </div>
-                        <div class="row">
-                            <p>JavaScript</p>
-                        </div>
+                    <!-- Javascript -->
+                    <div class="col col-4 col-md-2 d-flex flex-column justify-content-center align-items-center">
+                            <i class="fa-brands fa fa-js fa-3x d-block"></i>
+                            <p class="d-block">JavaScript</p>
                     </div>
-                    <div class="col col-4 col-md-2">
-                        <div class="row mx-auto">
+                    <!-- React -->
+                    <div class="col col-4 col-md-2 d-flex flex-column justify-content-center align-items-center">
                             <i class="fa-brands fa fa-react fa-3x"></i>
-                        </div>
-                        <div class="row">
                             <p>React.js</p>
-                        </div>
                     </div>
-                    <div class="col col-4 col-md-2">
-                        <div class="row mx-auto">
+                    <!-- Bootstrap -->
+                    <div class="col col-4 col-md-2 d-flex flex-column justify-content-center align-items-center">
                             <i class="fa-brands fa fa-bootstrap fa-3x"></i>
-                        </div>
-                        <div class="row">
                             <p>Bootstrap</p>
-                        </div>
                     </div>
-                    <div class="col col-4 col-md-2">
-                        <div class="row mx-auto">
+                    <!-- Git -->
+                    <div class="col col-4 col-md-2 d-flex flex-column justify-content-center align-items-center">
                             <i class="fa-brands fa fa-git fa-3x"></i>
-                        </div>
-                        <div class="row">
                             <p>Git</p>
-                        </div>
                     </div>
             </div>
-            <hr />
-            <div class="row mt-3">
-                <div class="col">
-                    <h3 class="text-center">Education</h3>
-                </div>
-            </div>
-                <div class="row mt-3">
-                    <p>Bachelor of Music (B.M.), Music Education - San Jose State University</p>
-
-                    <p>California Single-Subject Teaching Credential - UMass Global</p>
-                </div>
                 <hr />
-                <div class="row mt-3">
-                    <div class="col">
-                        <h3 class="text-center">Resume</h3>
-                    </div>
-                </div>
-                <p>To read more about my professional experience, check out my resume:</p>
-                <a href="./pdf-file/Cristina Duran - Resume for Web Developer.pdf" target="_blank"><button id="download-button"><i class="fa fa-download"></i> Download Resume</button></a>
 
+        <!-- Featured Projects -->
+
+            <h3 class="text-center" id="projects">Featured Projects</h3>
+
+            <!-- Film Finder -->
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12 col-sm-6 d-flex justify-content-center align-items-center">
+                        <img class="img-fluid featured" src="images/filmfinder.png" alt="film finder application">
+                    </div>
+                    <div class="col col-12 col-sm-6">
+                        <h4>Film Finder</h4>
+                        <p>Description</p>
+                        <ul>
+
+                        </ul>
+                        <p>Javascript</p>
+                        <a href="https://cristyduran.github.io/filmfinder/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-2x pr-2"></i>
+                        </a>
+                        <a href="https://github.com/cristyduran/filmfinder" target="_blank">
+                            <i class="fa-brands fa-github fa-2x"></i>
+                        </a>
+                    </div>
+                </div> 
+            </div>
+            <hr class="invisible">
+            <!-- Rancho Morfin -->
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12 col-sm-6 d-flex justify-content-center align-items-center order-xs-first">
+                        <img class="img-fluid featured" src="./images/ranchomorfin.png" alt="rancho morfin website">
+                    </div>
+                    <div class="col col-12 col-sm-6  order-sm-first">
+                        <h4>Rancho Morfin</h4>
+                        <p>a website for a local business that includes:</p>
+                        <ul class="responsive-bullet-points">
+                            <li>Bootstrap Utilities and classes to create a modern, fully responsive and fast loading webpage.</li>
+                            <li>The bootstrap grid system used for layout.</li>
+                        </ul>
+                        <p>Bootstrap, Javascript</p>
+                        <a href="https://cristyduran.github.io/ranchomorfin/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-2x pr-2"></i>
+                        </a>
+                        <a href="https://github.com/cristyduran/ranchomorfin" target="_blank">
+                            <i class="fa-brands fa-github fa-2x"></i>
+                        </a>
+                    </div>   
+                </div>  
+            </div>
+
+            <hr class="invisible">
+            <!-- Wild Rescues-->
+            <div class="container">
+                <div class="row">
+                    <div class="col col-12 col-sm-6 d-flex justify-content-center align-items-center">
+                        <img class="img-fluid featured" src="./images/wildlife-rescues.png" alt="Wildlife rescues website">
+                    </div> 
+                    <div class="col col-12 col-sm-6">
+                        <h4>Wild Rescues</h4>
+                        <p>A fully responsive website for a non-profit organization that includes:</p>
+                        <ul class="responsive-bullet-points">
+                            <li>Interactivity with CSS transform and Javascript.</li>
+                            <li>Hamburger icon menu exclusively for a mobile viewport.</li>
+                            <li>Accessibility: Added closed captions to videos.</li>
+                        </ul>
+                        <p>HTML, CSS, Javascript</p>
+                        <a href="https://cristyduran.github.io/wildliferescues/" target="_blank">
+                            <i class="fa-solid fa-arrow-up-right-from-square fa-2x pr-2"></i>
+                        </a>
+                        <a href="https://github.com/cristyduran/wildliferescues" target="_blank">
+                            <i class="fa-brands fa-github fa-2x"></i>
+                        </a>
+                    </div>
+                </div>  
+            </div>  
+
+                    <hr>
+    <!-- Other Projects -->
+    <h3 class="text-center">Other Projects</h3>
+ 
+    <div class="container mx-auto">
+
+        <div class="row">
+            <!-- Random Color-->
+            <div class="col-sm-4 text-right thumb">
+                <img  src="/images/randomcolor.png" class="zoom img-fluid mb-2"  alt="">
+                <a href="https://github.com/cristyduran/randomcolorgenerator" target="_blank"><i class="fa-brands fa-github fa-xl mr-2"></i></a>
+                <a href="https://cristyduran.github.io/randomcolorgenerator/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+            </div>
+            <!-- magic eight ball-->
+            <div class="col-sm-4 text-right thumb">
+
+                    <img  src="/images/magic-eight-ball.png" class="zoom img-fluid mb-2"  alt="">
+
+                <a href="https://github.com/cristyduran/magic-eight-ball" target="_blank"><i class="fa-brands fa-github fa-xl mr-2"></i></a>
+            </div>
+            <!-- strike a chord -->
+            <div class="col-sm-4 text-right thumb">
+                <img  src="/images/strike-a-chord-website.png" class="zoom img-fluid mb-2 "  alt="">
+                <a href="https://github.com/cristyduran/strikeachord" target="_blank"><i class="fa-brands fa-github fa-xl mr-2"></i></a>
+                <a href="https://cristyduran.github.io/strikeachord/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
+            </div>
+           </div>
+       </div>
+
+     
+      
+
+    </div>
+                    <hr>
+            <h3 id="contact" class="text-center">Contact</h3>
+            <p class="special-text text-center">I'd love to chat about opportunities.</p>
+            <button class="button btn text-nowrap text-center">Contact Me</button>
         </main>
 
         <footer>
