@@ -14,8 +14,9 @@ body, header, nav, main, footer, img, h1, h2, h3, ul, {
 
 /* Style rules for body and images*/
 body {
-    background: color #e9e9e9;
+    background: #0E0B16;
     font-family: 'Sono', sans-serif;
+    color: #E7DFDD;
 }
 
 /* Style rules for skip navigation link */
@@ -38,33 +39,33 @@ body {
 
 /* Styles rules for navigation area */
 nav {
-    background-color: #cdcdcd;
+    background: #0E0B16;
     width: 100%;
+    color: #E7DFDD;
+
 }
 .navbar-brand {
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-family: 'Pacifico', cursive;
-}
-
-nav li {
-    font-size: 1.25em;
+    color: #E7DFDD;
 }
 
 nav li a {
     padding: 1.5em;
+    color: #E7DFDD;
 }
 
 .btn {
     border: 1px solid black;
+    background-color: #4717F6;
+    color: #E7DFDD;
 }
 
 /* Style rules for main content */
-/*main {
-    padding: 2%;
-    line-height: 1.5em;
-    width: 90%;
-    margin: 0 auto;
-}*/
+
+.introduction {
+
+}
 
 h3 {
     font-size: 2rem;
@@ -72,13 +73,15 @@ h3 {
 }
 
 .headshot {
-    width: 300px;
-    height: 400px;
+    width: 275px;
+    height: 375px;
 }
+
 .name{
     font-size: 3rem;
     font-family: 'Pacifico', cursive;
     margin-bottom: 2rem;
+    color: #A239CA;
 }
 
 a {
@@ -95,9 +98,21 @@ hr {
     margin: 50px 0;
 }
 
+.tech-skills {
+
+}
+
 .featured {
     height: 200px;
     width: 300px;
+}
+
+i {
+    color: #E7DFDD;
+}
+
+i:hover {
+    color: #4717F6;
 }
 
 /* Gallery */
@@ -129,9 +144,9 @@ img.zoom {
     margin: 5% auto 5%;
     display: block;
     padding: 2%;
-    background-color: #e42d9f;
+    background-color: #4717F6;
     color: white;
-    font-size: 1.25em;
+
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
