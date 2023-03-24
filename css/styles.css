@@ -14,11 +14,15 @@ body, header, nav, main, footer, img, h1, h2, h3, ul, {
 
 /* Style rules for body and images*/
 body {
-    background: #0E0B16;
+    background: #D3935E;
     font-family: 'Sono', sans-serif;
     color: #E7DFDD;
 }
 
+#about {
+    background-color: #EFDBD1;
+    color: #3B341A;
+}
 /* Style rules for skip navigation link */
 .skip {
     position: absolute;
@@ -39,7 +43,7 @@ body {
 
 /* Styles rules for navigation area */
 nav {
-    background: #0E0B16;
+    background: #D3935E;
     width: 100%;
     color: #E7DFDD;
 
@@ -56,9 +60,14 @@ nav li a {
 }
 
 .btn {
-    border: 1px solid black;
-    background-color: #4717F6;
+    border: 1px solid #EFDBD1;
+    background-color: #3B341A;
     color: #E7DFDD;
+}
+
+.btn:hover {
+    background-color: #D3935E;
+    border: 1px solid #D3935E;
 }
 
 /* Style rules for main content */
@@ -81,7 +90,7 @@ h3 {
     font-size: 3rem;
     font-family: 'Pacifico', cursive;
     margin-bottom: 2rem;
-    color: #A239CA;
+    color: #D91E2C;
 }
 
 a {
@@ -107,12 +116,17 @@ hr {
     width: 300px;
 }
 
-i {
-    color: #E7DFDD;
+.project1 {
+    background-color: #EFDBD1;
+    color: #3B341A
 }
 
-i:hover {
-    color: #4717F6;
+i {
+    color: ;
+}
+
+
+.tech {
 }
 
 /* Gallery */
