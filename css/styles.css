@@ -121,6 +121,29 @@ hr {
     color: #3B341A
 }
 
+.project-descriptions {
+    background-color: #EFDBD1;
+    color: #3B341A;
+}
+.project-img-container {
+    background-color: #3B341A;
+}
+
+.image_wrapper {
+    position: relative;
+  }
+
+  .overlay_3 {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    padding: 1rem;
+    transform: scale(0);
+    transition: all .3s ease-in-out;
+    backdrop-filter: blur(8px) brightness(80%);
+  }
+  
+
 i {
     color: ;
 }
