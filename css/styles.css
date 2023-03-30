@@ -14,14 +14,16 @@ body, header, nav, main, footer, img, h1, h2, h3, ul, {
 
 /* Style rules for body and images*/
 body {
-    background: #D3935E;
+
     font-family: 'Sono', sans-serif;
-    color: #E7DFDD;
+    color: #281C26;
+    background-color: #F0E8F3;
+
 }
 
 #about {
-    background-color: #EFDBD1;
-    color: #3B341A;
+
+
 }
 /* Style rules for skip navigation link */
 .skip {
@@ -43,31 +45,38 @@ body {
 
 /* Styles rules for navigation area */
 nav {
-    background: #D3935E;
+    background: #D3C7D5;
     width: 100%;
-    color: #E7DFDD;
+    color: ;
 
 }
 .navbar-brand {
     font-size: 2.5rem;
     font-family: 'Pacifico', cursive;
-    color: #E7DFDD;
+    color: #543F52;
+}
+.navbar-brand:hover {
+    color: #281C26;
 }
 
 nav li a {
     padding: 1.5em;
-    color: #E7DFDD;
+    color: #543F52;
+}
+
+nav li a:hover {
 }
 
 .btn {
-    border: 1px solid #EFDBD1;
-    background-color: #3B341A;
-    color: #E7DFDD;
+    border: 1px solid #281C26;
+    background-color: #F0E8F3;
+    color: #281C26;
 }
 
 .btn:hover {
-    background-color: #D3935E;
-    border: 1px solid #D3935E;
+    background-color: #281C26;
+    border: 1px solid #281C26;
+    color: #F0E8F3;
 }
 
 /* Style rules for main content */
@@ -90,7 +99,7 @@ h3 {
     font-size: 3rem;
     font-family: 'Pacifico', cursive;
     margin-bottom: 2rem;
-    color: #D91E2C;
+    color: #543F52;
 }
 
 a {
@@ -102,7 +111,6 @@ a {
 }
 
 hr {
-    border: 1px solid #bbb;
     width: 100%;
     margin: 50px 0;
 }
@@ -117,16 +125,16 @@ hr {
 }
 
 .project1 {
-    background-color: #EFDBD1;
-    color: #3B341A
+    background-color:;
+    color: 
 }
 
 .project-descriptions {
-    background-color: #EFDBD1;
-    color: #3B341A;
+    background-color:;
+    color: ;
 }
 .project-img-container {
-    background-color: #3B341A;
+    background-color: ;
 }
 
 .image_wrapper {
@@ -181,21 +189,17 @@ img.zoom {
     margin: 5% auto 5%;
     display: block;
     padding: 2%;
-    background-color: #4717F6;
-    color: white;
-
     border-radius: 10px;
     text-decoration: none;
     text-align: center;
-
 }
 
 /* Style rules for footer content */
 footer {
     text-align: center;
     font-size: 1em;
-    background-color: #bdbdbe;
-    color: white;
+    background-color:;
+    color: ;
     padding: 1% 0%;
     clear: left;
 }
