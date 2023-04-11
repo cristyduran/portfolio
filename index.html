@@ -24,7 +24,7 @@
     <title>Cristina Duran: About</title>
 
 </head>
-<body data-spy="scroll" data-target=".navbar" data-offset="15">
+<body>
     
     <!-- Skip to Content Link -->
     <a class="skip" href="#content">Skip to Content</a>
@@ -55,9 +55,9 @@
 
 
         <!--Main area to add the main content to the webpage-->
-    <main>
+    <main id="about">
 
-        <div class="container"  id="about">
+        <div class="container">
             <div class="row mt-5 pt-3">
                 <div class="col col-12 col-md-6 d-flex justify-content-center align-items-center">
                     <img src="./images/new-headshot.jpg" class="img-fluid headshot mb-4" alt="headhshot of cristina duran.">
@@ -94,61 +94,61 @@
                 <div class="row mt-3">
                     <!-- HTML -->
                         <div class="col col-4 col-md-2 d-flex flex-column justify-content-center align-items-center">
-                                <i class="fa-brands fa fa-html5 fa-3x tech"></i>
+                                <i class="fa-brands fa fa-html5 fa-3x"></i>
                                 <span>
                                     <p>HTML5</p>
                                 </span>
                         </div>
                         <!-- CSS -->
                         <div class="col col-4 col-md-2 d-flex flex-column justify-content-center align-items-center">
-                                <i class="fa-brands fa-css3-alt fa-3x tech"></i>
+                                <i class="fa-brands fa-css3-alt fa-3x"></i>
                                 <span>
                                     <p>CSS3</p>
                                 </span>
                         </div>
                         <!-- Javascript -->
                         <div class="col col-4 col-md-2 d-flex flex-column justify-content-center align-items-center">
-                                <i class="fa-brands fa fa-js fa-3x tech"></i>
+                                <i class="fa-brands fa fa-js fa-3x"></i>
                                 <span>
                                     <p class="d-block">JavaScript</p>
                                 </span>
                         </div>
                         <!-- React -->
                         <div class="col col-4 col-md-2 d-flex flex-column justify-content-center align-items-center">
-                                <i class="fa-brands fa fa-react fa-3x tech"></i>
+                                <i class="fa-brands fa fa-react fa-3x"></i>
                                 <span>
                                     <p>React.js</p>
                                 </span>
                         </div>
                         <!-- Bootstrap -->
                         <div class="col col-4 col-md-2 d-flex flex-column justify-content-center align-items-center">
-                                <i class="fa-brands fa fa-bootstrap fa-3x tech"></i>
+                                <i class="fa-brands fa fa-bootstrap fa-3x"></i>
                                 <span>
                                     <p>Bootstrap</p>
                                 </span>
                         </div>
                         <!-- Git -->
                         <div class="col col-4 col-md-2 d-flex flex-column justify-content-center align-items-center">
-                                <i class="fa-brands fa fa-git fa-3x tech"></i>
+                                <i class="fa-brands fa fa-git fa-3x"></i>
                                 <span>
                                     <p>Git</p>
                                 </span>
                         </div>
                 </div>
             </div>
-                <hr class="invisible" />
+                <hr class="invisible" id="projects"/>
 
         <!-- Featured Projects -->
-
-            <h3 class="text-center mb-4" id="projects">Featured Projects</h3>
+    
+        <h3 class="text-center mb-4">Featured Projects</h3>
 
             <!-- Film Finder -->
-            <div class="container project1-container">
+            <div class="container">
                 <div class="row">
                     <div class="col col-12 col-sm-6 mb-4 d-flex justify-content-center align-items-center">
                         <img class="img-fluid featured" src="images/filmfinder.png" alt="film finder application">
                     </div>
-                    <div class="col col-12 col-sm-6 project-descriptions">
+                    <div class="col col-12 col-sm-6">
                         <h4>Film Finder</h4>
                         <p>Film finder is an app that aims to help you find new movies to watch based on your preferred genre. It uses the TMDB API to select a movie at random. </p>
                         <span>
@@ -169,7 +169,7 @@
                     <div class="col col-12 col-sm-6 mb-4 d-flex justify-content-center align-items-center order-xs-first">
                         <img class="img-fluid featured" src="./images/ranchomorfin.png" alt="rancho morfin website">
                     </div>
-                    <div class="col col-12 col-sm-6  order-sm-first  project-descriptions">
+                    <div class="col col-12 col-sm-6  order-sm-first">
                         <h4>Rancho Morfin</h4>
                           <p>Rancho Morfin is a one page website for an outdoor venue. It is a freelance project I built for a growing family business. It's notable features are an image carousel as the header and an image gallery. Responsive for mobile.</p>
                         <span>
@@ -191,7 +191,7 @@
                     <div class="col col-12 col-sm-6 mb-4 d-flex justify-content-center align-items-center">
                         <img class="img-fluid featured" src="./images/wildlife-rescues.png" alt="Wildlife rescues website">
                     </div> 
-                    <div class="col col-12 col-sm-6  project-descriptions">
+                    <div class="col col-12 col-sm-6">
                         <h4>Wild Rescues</h4>
                         <p>Wild Rescues is for a non profit organization that displays information to the community about their rescue services. It is a fully responsive website built with a mobile-first design strategy and accessibility guidelines.</p>
                         <span>

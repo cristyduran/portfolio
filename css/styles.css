@@ -14,17 +14,11 @@ body, header, nav, main, footer, img, h1, h2, h3, ul, {
 
 /* Style rules for body and images*/
 body {
-
     font-family: 'Lora', serif;
     color: #281C26;
     background-color: #F0E8F3;
-
 }
 
-#about {
-
-
-}
 /* Style rules for skip navigation link */
 .skip {
     position: absolute;
@@ -50,11 +44,13 @@ nav {
     color: ;
 
 }
+
 .navbar-brand {
     font-size: 2.5rem;
     font-family: 'Pacifico', cursive;
     color: #543F52;
 }
+
 .navbar-brand:hover {
     color: #281C26;
 }
@@ -64,8 +60,10 @@ nav li a {
     color: #543F52;
 }
 
-nav li a:hover {
+.nav-link:hover {
+    color: #281C26;
 }
+
 
 .btn {
     border: 1px solid #281C26;
@@ -117,78 +115,14 @@ hr {
     margin: 50px 0;
 }
 
-.tech-skills {
-
-}
-
 .featured {
     height: 200px;
     width: 300px;
 }
 
-.project1 {
-    background-color:
-    color: 
-}
-
-.project-descriptions {
-    background-color:;
-    color: ;
-}
-.project-img-container {
-    background-color: ;
-}
-
-.image_wrapper {
-    position: relative;
-  }
-
-  .overlay_3 {
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    padding: 1rem;
-    transform: scale(0);
-    transition: all .3s ease-in-out;
-    backdrop-filter: blur(8px) brightness(80%);
-  }
-  
-
-i {
-    color: ;
-}
-
 span {
     font-family: 'Sono', sans-serif;
 }
-
-.tech {
-}
-
-/* Gallery */
-.green{
-    background-color:#6fb936;
-  }
-          .thumb{
-              margin-bottom: 30px;
-          }
-          
-          .page-top{
-              margin-top:85px;
-          }
-  
-
-img.zoom {
-    width: 100%;
-    height: 200px;
-    border-radius:5px;
-    object-fit:cover;
-    -webkit-transition: all .3s ease-in-out;
-    -moz-transition: all .3s ease-in-out;
-    -o-transition: all .3s ease-in-out;
-    -ms-transition: all .3s ease-in-out;
-}
-
 
 .button {
     margin: 5% auto 5%;
@@ -200,6 +134,22 @@ img.zoom {
 }
 
 /* Style rules for footer content */
+
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accordion {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.accordion-img {
+    width: 300px;
+}
+
+/* Style rules for footer area */
 footer {
     text-align: center;
     font-size: 1em;
@@ -217,35 +167,8 @@ footer a {
 .social img {
     display: inline-block;
     padding: 1%;
-    width: 10%;
+    width: 7%;
 }
-.card-body {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-.accordion {
-    width: 75%;
-    margin: 0 auto;
-}
-
-.accordion-img {
-    width: 300px;
-}
-.project-links {
-}
-
-/* Style rules for footer area */
-footer {
-    overflow: auto;
-}
-
-.social img {
-    display: inline;
-    width: 5%;
-}
-
-
 
 /* Media Query for Print */
 @media print {
