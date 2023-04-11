@@ -15,7 +15,7 @@ body, header, nav, main, footer, img, h1, h2, h3, ul, {
 /* Style rules for body and images*/
 body {
 
-    font-family: 'Sono', sans-serif;
+    font-family: 'Lora', serif;
     color: #281C26;
     background-color: #F0E8F3;
 
@@ -91,8 +91,10 @@ h3 {
 }
 
 .headshot {
-    width: 275px;
-    height: 375px;
+    width: 65%;
+    height: auto;
+    border-radius: 50%;
+    border: 1px solid black;
 }
 
 .name{
@@ -125,7 +127,7 @@ hr {
 }
 
 .project1 {
-    background-color:;
+    background-color:
     color: 
 }
 
@@ -156,6 +158,9 @@ i {
     color: ;
 }
 
+span {
+    font-family: 'Sono', sans-serif;
+}
 
 .tech {
 }
