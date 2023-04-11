@@ -214,6 +214,21 @@ footer a {
     padding: 1%;
     width: 10%;
 }
+.card-body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.accordion {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.accordion-img {
+    width: 300px;
+}
+.project-links {
+}
 
 /* Style rules for footer area */
 footer {

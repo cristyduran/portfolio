@@ -192,30 +192,76 @@
                     <hr class="invisible">
     <!-- Other Projects -->
     <h3 class="text-center">Other Projects</h3>
- 
-    <div class="container mx-auto">
 
-        <div class="row">
-            <!-- Random Color-->
-            <div class="col-sm-4 text-right thumb">
-                <img  src="./images/randomcolor.png" class="zoom img-fluid mb-2"  alt="">
+    <!--Other Projects Accordion -->
+    <div class="accordion" id="accordionExample">
+  <div class="card">
+    <div class="card-header" id="headingOne">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+          Random Color Generator - React
+        </button>
+      </h2>
+    </div>
+
+    <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+      <div class="card-body">
+        <div>
+            <div class="row"><img  src="./images/randomcolor.png" class="accordion-img mb-2"  alt="screenshot of random color generator app"></div>
+            <div class="row">
                 <a href="https://github.com/cristyduran/randomcolorgenerator" target="_blank"><i class="fa-brands fa-github fa-xl mr-2"></i></a>
                 <a href="https://cristyduran.github.io/randomcolorgenerator/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
             </div>
-            <!-- magic eight ball-->
-            <div class="col-sm-4 text-right thumb">
-                <img  src="./images/magic-eight-ball.png" class="zoom img-fluid mb-2"  alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <!--Card two-->
+  <div class="card">
+    <div class="card-header" id="headingTwo">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+          Magic Eight Ball - CSS, Javascript
+        </button>
+      </h2>
+    </div>
+    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+      <div class="card-body">
+        <div>
+            <div class="row">
+                <img  src="./images/magic-8-ball.png" class="accordion-img mb-2"  alt="screenshot of random color generator app">
+            </div>
+            <div class="row">
                 <a href="https://github.com/cristyduran/magic-8-ball" target="_blank"><i class="fa-brands fa-github fa-xl mr-2"></i></a>
                 <a href="https://cristyduran.github.io/magic-8-ball/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
             </div>
-            <!-- strike a chord -->
-            <div class="col-sm-4 text-right thumb">
-                <img  src="./images/strike-a-chord-website.png" class="zoom img-fluid mb-2 "  alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="card">
+    <div class="card-header" id="headingThree">
+      <h2 class="mb-0">
+        <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+          Strike a Chord - HTML, CSS, Javascript
+        </button>
+      </h2>
+    </div>
+    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+      <div class="card-body">
+        <div>
+            <div class="row">
+                <img  src="./images/strike-a-chord-website.png" class="accordion-img mb-2"  alt="screenshot of random color generator app">
+            </div>
+            <div class="row">
                 <a href="https://github.com/cristyduran/strikeachord" target="_blank"><i class="fa-brands fa-github fa-xl mr-2"></i></a>
                 <a href="https://cristyduran.github.io/strikeachord/" target="_blank"><i class="fa-solid fa-arrow-up-right-from-square fa-lg"></i></a>
             </div>
         </div>
+      </div>
     </div>
+  </div>
+</div>
 
                     <hr>
             <h3 id="contact" class="text-center">Contact</h3>
